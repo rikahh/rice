@@ -66,3 +66,6 @@ flatpak install flathub io.missioncenter.MissionCenter
 git clone https://github.com/dogmwa/rice
 cd rice
 ```
+```bash
+sudo ./script.sh
+```
