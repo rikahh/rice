@@ -1,48 +1,64 @@
 # rice
-
-Minimal and clean Hyprland configuration.
+rice by dogma
 
 ## Installation
 
 ```bash
 sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch
+bash
+```
 
+```bash
 chsh -s /bin/zsh
+```
 
+```bash
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
 
+```bash
 yay -S hyprshot librewolf-bin clipse zinit ags-hyprpanel-git
+```
 
+```bash
 yay -S --needed aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
 btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
 upower pacman-contrib power-profiles-daemon gvfs gtksourceview3 libsoup3 \
 grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git
-
+```
 
 !! Plugins
 
+```bash
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm add https://github.com/KZDKM/Hyprspace
+```
 
+```bash
 hyprpm enable hyprexpo
 hyprpm enable Hyprspace
-
+```
 
 
 !! Extras
 
-
+```bash
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+```bash
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+```
+```bash
 flatpak install flathub io.missioncenter.MissionCenter
-
+```
 
 !! Clone
 
+```bash
 git clone https://github.com/dogmwa/rice
 cd rice
-
+```
