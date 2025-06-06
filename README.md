@@ -3,6 +3,8 @@ rice by dogma
 
 ## Installation
 
+install hyprland https://wiki.hyprland.org/Getting-Started/Installation/
+
 ```bash
 sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch
 ```
