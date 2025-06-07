@@ -1,9 +1,8 @@
 # rice
-rice by dogma
 
 ## Installation
 
-install hyprland https://wiki.hyprland.org/Getting-Started/Installation/
+### first install hyprland https://wiki.hyprland.org/Getting-Started/Installation/
 
 
 ```bash
