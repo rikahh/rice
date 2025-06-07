@@ -72,6 +72,7 @@ flatpak install flathub io.missioncenter.MissionCenter
 !! Clone
 
 ```bash
+cd
 git clone https://github.com/dogmwa/rice
 cd rice
 ```
@@ -109,6 +110,7 @@ After that, you can edit the Hyprpanel configuration however you like.
 for gtk theme i use whitesur-gtk-theme
 
 ```bash
+cd
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 ```
@@ -120,7 +122,13 @@ cd WhiteSur-gtk-theme
 ‼️‼️ IF YOU EXPERIENCE ANY ISSUES WITH NAUTILUS, CLOSE NAUTILUS AND RERUN THE SCRIPT ‼️‼️
 
 ```bash
-sudo ./tweaks.sh -g -b default -nd
+cd
+mv rice/Documents/wallpaper/backgrounds.jpg WhiteSur-gtk-theme/wall.jpg
+cd ~/WhiteSur-gtk-theme
+```
+
+```bash
+sudo ./tweaks.sh -g -b "wall.jpg" -nd
 sudo ./tweaks.sh -f
 ```
 
