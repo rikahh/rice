@@ -121,3 +121,9 @@ cd cd WhiteSur-icon-theme
 ```bash
 ./install.sh
 ```
+
+Don’t forget to disable and uninstall your current display manager (ly, sddm, lightdm), and then enable GDM.
+
+```bash
+sudo systemctl enable --now gdm
+```
