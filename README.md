@@ -149,4 +149,4 @@ Click on your user, then you’ll see a menu in the bottom right corner where yo
 yay -S --needed --noconfirm nwg-look themechanger-git
 ```
 Use themechanger to apply the WhiteSur GTK theme,
-and nwg-look to configure icons
+and nwg-look to configure WhiteSur icons
