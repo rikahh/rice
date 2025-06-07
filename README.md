@@ -34,14 +34,14 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft
+yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed
 ```
 
 ```bash
 yay -S --needed aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
 btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
 upower pacman-contrib power-profiles-daemon gvfs gtksourceview3 libsoup3 \
-grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git
+grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git --needed
 ```
 
 !! Plugins
