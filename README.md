@@ -29,7 +29,7 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot librewolf-bin clipse ags-hyprpanel-git bibata-cursor-theme
+yay -S hyprshot librewolf-bin clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft
 ```
 
 ```bash
