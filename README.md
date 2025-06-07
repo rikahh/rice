@@ -89,5 +89,30 @@ HYPRPANEL CONFIGURATION
     Finally, click on Bar and enable Transparent.
 
 After that, you can edit the Hyprpanel configuration however you like.
-After that, you can edit the Hyprpanel configuration however you like.
 
+
+for gtk theme i use whitesur-gtk-theme
+
+```bash
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+cd WhiteSur-gtk-theme
+```
+
+```bash
+./install.sh -t all -N mojave -l
+```
+
+```bash
+sudo ./tweaks.sh -g -b default -nd -f
+```
+
+and for icon i use WhiteSur Icon Theme
+
+```bash
+https://github.com/vinceliuice/WhiteSur-icon-theme.git
+cd cd WhiteSur-icon-theme
+```
+
+```bash
+./install.sh
+```
