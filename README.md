@@ -12,6 +12,10 @@ sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprl
 ```bash
 chsh -s /bin/zsh
 ```
+```bash
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
 
 ```bash
 hyprctl dispatch exit
@@ -51,9 +55,6 @@ hyprpm enable Hyprspace
 
 !! Extras
 
-```bash
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-```
 ```bash
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 ```
