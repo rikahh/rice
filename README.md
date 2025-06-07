@@ -155,3 +155,9 @@ Use themechanger to apply the WhiteSur GTK theme,
 and nwg-look to configure WhiteSur icons
 
 IF NAUTILUS IS BUGGY, RERUN THE GTK THEME SCRIPT
+
+```bash
+cd
+cd WhiteSur-gtk-theme
+./install.sh -l -t all -N mojave
+```
