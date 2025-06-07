@@ -125,18 +125,18 @@ reboot
 
 ## HYPRPANEL CONFIGURATION
 
-## (because exporting and importing hyprpanel_theme.json didn’t work idk why)
+### (because exporting and importing hyprpanel_theme.json didn’t work idk why)
 
-## Click on the Hyprpanel logo in the top left corner, then go to Settings.
-## In the Settings page, click on Configuration, then on Bar, and enable Floating Bar.
+### Click on the Hyprpanel logo in the top left corner, then go to Settings.
+### In the Settings page, click on Configuration, then on Bar, and enable Floating Bar.
 
-## Next, go to Theming, then to General, enable Apply Wallpapers, and set the wallpaper available in the repository.
+### Next, go to Theming, then to General, enable Apply Wallpapers, and set the wallpaper available in the repository.
 
-## Go to Matugen Settings, enable Matugen, set the Matugen Theme to Dark, the Matugen Scheme to Monochrome, and the Matugen Variation to monochrome_3.
+### Go to Matugen Settings, enable Matugen, set the Matugen Theme to Dark, the Matugen Scheme to Monochrome, and the Matugen Variation to monochrome_3.
 
-## Finally, click on Bar and enable Transparent.
+### Finally, click on Bar and enable Transparent.
 
-## After that, you can edit the Hyprpanel configuration however you like.
+### After that, you can edit the Hyprpanel configuration however you like.
 
 
 
@@ -200,19 +200,19 @@ sudo systemctl enable --now gdm
 ```
 
 
-## After rebooting into GDM, you’ll see the login screen.
-## Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
+### After rebooting into GDM, you’ll see the login screen.
+### Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
 
-## download tool for change gtk themes and icon themes
+### download tool for change gtk themes and icon themes
 
 ```bash
 yay -S --needed --noconfirm nwg-look themechanger-git
 ```
 
-## Use themechanger to apply the WhiteSur GTK theme,
-## and nwg-look to configure WhiteSur icons
+### Use themechanger to apply the WhiteSur GTK theme,
+### and nwg-look to configure WhiteSur icons
 
-## IF NAUTILUS IS BUGGY, RERUN THE GTK THEME SCRIPT AND KILL NAUTILUS
+### IF NAUTILUS IS BUGGY, RERUN THE GTK THEME SCRIPT AND KILL NAUTILUS
 
 ```bash
 pkill nautilus
