@@ -117,7 +117,7 @@ cd WhiteSur-gtk-theme
 ./install.sh -l -t all -N mojave
 ```
 
-‼️‼️ IF YOU EXPERIENCE ANY ISSUES WITH NAUTILUS, RERUN THE SCRIPT ‼️‼️
+‼️‼️ IF YOU EXPERIENCE ANY ISSUES WITH NAUTILUS, CLOSE NAUTILUS AND RERUN THE SCRIPT ‼️‼️
 
 ```bash
 sudo ./tweaks.sh -g -b default -nd
