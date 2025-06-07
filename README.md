@@ -123,7 +123,7 @@ cd WhiteSur-gtk-theme
 
 ```bash
 cd
-mv rice/Documents/wallpaper/backgrounds.jpg WhiteSur-gtk-theme/wall.jpg
+mv rice/Documents/wallpaper/background.jpg WhiteSur-gtk-theme/wall.jpg
 cd ~/WhiteSur-gtk-theme
 ```
 
