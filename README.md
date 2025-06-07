@@ -1,5 +1,7 @@
 # rice
 
+![rice_compressed](https://github.com/user-attachments/assets/780ed4af-e77e-442f-821e-54cb43b0d78b)
+
 ## Installation
 
 ### first install hyprland https://wiki.hyprland.org/Getting-Started/Installation/
