@@ -115,7 +115,7 @@ sudo ./tweaks.sh -f
 and for icon i use WhiteSur Icon Theme
 
 ```bash
-https://github.com/vinceliuice/WhiteSur-icon-theme.git
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
 cd cd WhiteSur-icon-theme
 ```
 
