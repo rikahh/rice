@@ -11,7 +11,7 @@ sudo pacman -Syu
 ```
 
 ```bash
-sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed --noconfirm
+sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm nwg-look --needed --noconfirm
 ```
 
 ```bash
@@ -34,7 +34,7 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
+yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft theme-changer-git --needed --noconfirm
 ```
 ```bash
 yay -Rdd hyprutils hyprwayland-scanner
