@@ -4,26 +4,37 @@
 
 ### first install hyprland https://wiki.hyprland.org/Getting-Started/Installation/
 
+### update pacman
 
 ```bash
 sudo pacman -Syu
 ```
+### install all packages 
 
 ```bash
 sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed --noconfirm
 ```
 
+### install ZSH and OH-MY-ZSH 
+
 ```bash
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+
+### install zsh-autosuggestions plugins
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH/custom/plugins/zsh-autosuggestions
 ```
 
+### quit hyprland ( relaunch hyprland after that)
+
+
 ```bash
 hyprctl dispatch exit
 ```
+
+### install yay 
 
 ```bash
 sudo pacman -S --needed git base-devel
@@ -32,12 +43,19 @@ cd yay
 makepkg -si
 ```
 
+
+### install AUR packages
+
 ```bash
 yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
+### force uninstallation of packages that will create conflicts later (they'll be reinstalled as -git versions later)
+
 ```bash
 yay -Rdd hyprutils hyprwayland-scanner
 ```
+### install hyprpanel dependencies
+
 ```bash
 yay -S --needed --noconfirm aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
 btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
@@ -45,7 +63,9 @@ upower pacman-contrib power-profiles-daemon gvfs gtksourceview3 libsoup3 \
 grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git
 ```
 
-!! Plugins
+## Plugins
+
+### add plugins list
 
 ```bash
 hyprpm update
@@ -53,39 +73,53 @@ hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm add https://github.com/KZDKM/Hyprspace
 ```
 
+### enable plugin
+
 ```bash
 hyprpm enable hyprexpo
 hyprpm enable Hyprspace
 ```
 
 
-!! Extras
+## Extras
+
+### install vencord
 
 ```bash
 sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 ```
+### install missioncenter (task manager)
+
 ```bash
 flatpak install flathub io.missioncenter.MissionCenter
 ```
 
-!! Clone
+## Clone
+
+### this repository
+
 
 ```bash
 cd
 git clone https://github.com/dogmwa/rice
 cd rice
 ```
+
+### Change file permissions
+
 ```bash
 chmod +x script.sh
 ```
+### Start script
+
 ```bash
 ./script.sh
 ```
 
-REBOOT !!!!!
+## Reboot
 
 ```bash
-reboot now
+reboot
 ```
 
 
@@ -104,10 +138,13 @@ Finally, click on Bar and enable Transparent.
 
 After that, you can edit the Hyprpanel configuration however you like.
 
-gtk theme
+## gtk theme
 
 
-for gtk theme i use whitesur-gtk-theme
+### for gtk theme i use whitesur-gtk-theme
+
+### clone whitesur-gtk-theme repository
+
 
 ```bash
 cd
@@ -115,12 +152,14 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 ```
 
+### kill nautilus and start whitesur-gtk-theme install script
+
 ```bash
 pkill nautilus
 ./install.sh -l -t all -N mojave
 ```
 
-‼️‼️ IF YOU EXPERIENCE ANY ISSUES WITH NAUTILUS, CLOSE NAUTILUS AND RERUN THE SCRIPT ‼️‼️
+### put my custom gdm wallpaper
 
 ```bash
 cd
@@ -128,13 +167,17 @@ mv rice/Documents/wallpaper/background.jpg WhiteSur-gtk-theme/wall.jpg
 cd ~/WhiteSur-gtk-theme
 ```
 
+### start whitesur-gtk-theme tweaks script
+
 ```bash
 pkill firefox
 sudo ./tweaks.sh -g -b "wall.jpg" -nd -nb
 sudo ./tweaks.sh -f
 ```
 
-and for icon i use WhiteSur Icon Theme
+### and for icon i use WhiteSur Icon Theme
+
+### clone whitesur-gtk-icon repository
 
 ```bash
 cd
@@ -142,29 +185,32 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
 cd WhiteSur-icon-theme
 ```
 
+### start whitesur-gtk-icon install script
+
 ```bash
 ./install.sh
 ```
 
-Don’t forget to disable and uninstall your current display manager (ly, sddm, lightdm), and then enable GDM.
+### Don’t forget to disable and uninstall your current display manager (ly, sddm, lightdm), and then enable GDM.
 
 ```bash
 sudo systemctl enable --now gdm
 ```
 
 
-After rebooting into GDM, you’ll see the login screen.
-Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
+## After rebooting into GDM, you’ll see the login screen.
+## Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
 
-
+## download tool for change gtk themes and icon themes
 
 ```bash
 yay -S --needed --noconfirm nwg-look themechanger-git
 ```
-Use themechanger to apply the WhiteSur GTK theme,
-and nwg-look to configure WhiteSur icons
 
-IF NAUTILUS IS BUGGY, RERUN THE GTK THEME SCRIPT AND KILL NAUTILUS
+## Use themechanger to apply the WhiteSur GTK theme,
+## and nwg-look to configure WhiteSur icons
+
+## IF NAUTILUS IS BUGGY, RERUN THE GTK THEME SCRIPT AND KILL NAUTILUS
 
 ```bash
 pkill nautilus
