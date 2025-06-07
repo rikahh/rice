@@ -128,6 +128,7 @@ cd ~/WhiteSur-gtk-theme
 ```
 
 ```bash
+pkill firefox
 sudo ./tweaks.sh -g -b "wall.jpg" -nd -nb
 sudo ./tweaks.sh -f
 ```
