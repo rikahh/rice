@@ -128,3 +128,6 @@ Don’t forget to disable and uninstall your current display manager (ly, sddm, 
 ```bash
 sudo systemctl enable --now gdm
 ```
+
+After rebooting into GDM, you’ll see the login screen.
+In the bottom right corner, you can easily select the default desktop environment (in this case, Hyprland).
