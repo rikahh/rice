@@ -35,7 +35,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH/custom/plugins/zsh-autosuggestions
 ```
 
-### quit hyprland ( relaunch hyprland after that)
+### quit hyprland (relaunch hyprland after that)
 
 
 ```bash
