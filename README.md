@@ -36,7 +36,9 @@ makepkg -si
 ```bash
 yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
-
+```bash
+yay -Rdd hyprutils hyprwayland-scanner
+```
 ```bash
 yay -S --needed --noconfirm aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
 btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
