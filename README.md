@@ -108,7 +108,8 @@ cd WhiteSur-gtk-theme
 ```
 
 ```bash
-sudo ./tweaks.sh -g -b default -nd -f
+sudo ./tweaks.sh -g -b default -nd
+sudo ./tweaks.sh -f
 ```
 
 and for icon i use WhiteSur Icon Theme
