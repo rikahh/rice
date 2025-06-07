@@ -79,6 +79,14 @@ chmod +x script.sh
 ```bash
 ./script.sh
 ```
+
+REBOOT !!!!!
+
+```bash
+reboot now
+```
+
+
 HYPRPANEL CONFIGURATION
 
 (because exporting and importing hyprpanel_theme.json didn’t work idk why)
