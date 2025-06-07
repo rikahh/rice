@@ -116,7 +116,7 @@ and for icon i use WhiteSur Icon Theme
 
 ```bash
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
-cd cd WhiteSur-icon-theme
+cd WhiteSur-icon-theme
 ```
 
 ```bash
