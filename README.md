@@ -11,7 +11,7 @@ sudo pacman -Syu
 ```
 
 ```bash
-sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm nwg-look --needed --noconfirm
+sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed --noconfirm
 ```
 
 ```bash
@@ -34,7 +34,7 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft theme-changer-git --needed --noconfirm
+yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
 ```bash
 yay -Rdd hyprutils hyprwayland-scanner
@@ -139,5 +139,14 @@ Don’t forget to disable and uninstall your current display manager (ly, sddm, 
 sudo systemctl enable --now gdm
 ```
 
+
 After rebooting into GDM, you’ll see the login screen.
 Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
+
+
+
+```bash
+yay -S --needed --noconfirm nwg-look themechanger-git
+```
+Use themechanger to apply the WhiteSur GTK theme,
+and nwg-look to configure icons
