@@ -66,5 +66,8 @@ git clone https://github.com/dogmwa/rice
 cd rice
 ```
 ```bash
-sudo ./script.sh
+chmod +x script.sh
+```
+```bash
+./script.sh
 ```
