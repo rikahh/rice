@@ -130,4 +130,4 @@ sudo systemctl enable --now gdm
 ```
 
 After rebooting into GDM, you’ll see the login screen.
-In the bottom right corner, you can easily select the default desktop environment (in this case, Hyprland).
+Click on your user, then you’ll see a menu in the bottom right corner where you can easily select the default desktop environment (in this case, Hyprland).
