@@ -11,7 +11,7 @@ sudo pacman -Syu
 ```
 
 ```bash
-sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed
+sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprlock fuzzel keepassxc flatpak discord zsh fastfetch firefox gdm --needed --noconfirm
 ```
 
 ```bash
@@ -34,11 +34,11 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed
+yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
 
 ```bash
-yay -S --needed aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
+yay -S --needed --noconfirm aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
 btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
 upower pacman-contrib power-profiles-daemon gvfs gtksourceview3 libsoup3 \
 grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git
