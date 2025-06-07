@@ -114,7 +114,7 @@ cd WhiteSur-gtk-theme
 ```
 
 ```bash
-./install.sh -t all -N mojave -l
+./install.sh -l -N mojave
 ```
 
 ```bash
