@@ -128,7 +128,7 @@ cd ~/WhiteSur-gtk-theme
 ```
 
 ```bash
-sudo ./tweaks.sh -g -b "wall.jpg" -nd
+sudo ./tweaks.sh -g -b "wall.jpg" -nd -nb
 sudo ./tweaks.sh -f
 ```
 
