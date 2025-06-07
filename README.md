@@ -13,6 +13,9 @@ sudo pacman -S kitty nautilus git cmake meson cpio pkg-config gcc hypridle hyprl
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH/custom/plugins/zsh-autosuggestions
+```
 
 ```bash
 hyprctl dispatch exit
@@ -26,7 +29,7 @@ makepkg -si
 ```
 
 ```bash
-yay -S hyprshot librewolf-bin clipse zinit ags-hyprpanel-git
+yay -S hyprshot librewolf-bin clipse ags-hyprpanel-git
 ```
 
 ```bash
