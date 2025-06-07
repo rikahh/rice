@@ -74,3 +74,20 @@ chmod +x script.sh
 ```bash
 ./script.sh
 ```
+HYPRPANEL CONFIGURATION
+
+(because exporting and importing hyprpanel_theme.json didn’t work idk why)
+
+    Click on the Hyprpanel logo in the top left corner, then go to Settings.
+
+    In the Settings page, click on Configuration, then on Bar, and enable Floating Bar.
+
+    Next, go to Theming, then to General, enable Apply Wallpapers, and set the wallpaper available in the repository.
+
+    Go to Matugen Settings, enable Matugen, set the Matugen Theme to Dark, the Matugen Scheme to Monochrome, and the Matugen Variation to monochrome_3.
+
+    Finally, click on Bar and enable Transparent.
+
+After that, you can edit the Hyprpanel configuration however you like.
+After that, you can edit the Hyprpanel configuration however you like.
+
