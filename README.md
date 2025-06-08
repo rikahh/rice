@@ -55,21 +55,16 @@ makepkg -si
 ### install AUR packages
 
 ```bash
-yay -S hyprshot clipse ags-hyprpanel-git bibata-cursor-theme otf-monocraft --needed --noconfirm
+yay -S hyprshot clipse bibata-cursor-theme otf-monocraft --needed --noconfirm
 ```
 ### force uninstallation of packages that will create conflicts later (they'll be reinstalled as -git versions later)
 
 ```bash
 yay -Rdd hyprutils hyprwayland-scanner
 ```
-### install hyprpanel dependencies
+### install hyprpanel
 
-```bash
-yay -S --needed --noconfirm aylurs-gtk-shell-git wireplumber libgtop bluez bluez-utils \
-btop networkmanager dart-sass wl-clipboard brightnessctl swww python \
-upower pacman-contrib power-profiles-daemon gvfs gtksourceview3 libsoup3 \
-grimblast-git wf-recorder-git hyprpicker matugen-bin python-gpustat hyprsunset-git
-```
+https://hyprpanel.com/getting_started/installation.html
 
 ## Plugins
 
