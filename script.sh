@@ -1,5 +1,5 @@
 #!/bin/bash
-# caca
+
 RICE_DIR="$HOME/rice"
 
 declare -A TARGETS=(
