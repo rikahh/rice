@@ -1,6 +1,7 @@
 # rice
 
 
+# [View all keybinds](./binds.md)
 
 
 https://github.com/user-attachments/assets/91d50319-ccb5-4758-bff7-c22b178f4fde
