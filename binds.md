@@ -1,30 +1,17 @@
 ## Shortcuts
 
 ### General
-			Shortcut
-			Action
-			Command
-			$mainMod + Q
-			Kill active window
-			killactive
-			$mainMod + W
-			Toggle floating mode
-			togglefloating
-			$mainMod + SPACE
-			Toggle split orientation
-			togglesplit
-			$mainMod + P
-			Toggle pseudo tiling
-			pseudo
-			SUPER + SHIFT + F
-			Toggle fullscreen
-			fullscreen
-			$mainMod + L
-			Lock screen
-			hyprlock
-			$mainMod + S
-			Screenshot (region)
-			hyprshot -m region
+| Shortcut            | Action                   | Command              |
+| ------------------- | ------------------------ | -------------------- |
+| `$mainMod + Q`      | Kill active window       | `killactive`         |
+| `$mainMod + W`      | Toggle floating mode     | `togglefloating`     |
+| `$mainMod + SPACE`  | Toggle split orientation | `togglesplit`        |
+| `$mainMod + P`      | Toggle pseudo tiling     | `pseudo`             |
+| `SUPER + SHIFT + F` | Toggle fullscreen        | `fullscreen`         |
+| `$mainMod + L`      | Lock screen              | `hyprlock`           |
+| `$mainMod + S`      | Screenshot (region)      | `hyprshot -m region` |
+
+
 ### Application
 			Shortcut
 			Action
