@@ -105,7 +105,7 @@ flatpak install flathub io.missioncenter.MissionCenter
 
 ```bash
 cd
-git clone https://github.com/dogmwa/rice
+git clone https://github.com/irkahh/rice
 cd rice
 ```
 
